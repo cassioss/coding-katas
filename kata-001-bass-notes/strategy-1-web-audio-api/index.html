@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Kata 001 - Strategy 1: Web Audio API</title>
+</head>
+<body>
+  <div>
+    <button
+      data-playing="false"
+      role="switch"
+      aria-checked="false"
+      onclick="toggleNote(this, 'g2')"
+    >
+      <span>Play/Pause G2 Note</span>
+    </button>
+    <button
+      data-playing="false"
+      role="switch"
+      aria-checked="false"
+      onclick="toggleNote(this, 'd2')"
+    >
+      <span>Play/Pause D2 Note</span>
+    </button>
+    <button
+      data-playing="false"
+      role="switch"
+      aria-checked="false"
+      onclick="toggleNote(this, 'a1')"
+    >
+      <span>Play/Pause A1 Note</span>
+    </button>
+    <button
+      data-playing="false"
+      role="switch"
+      aria-checked="false"
+      onclick="toggleNote(this, 'e1')"
+    >
+      <span>Play/Pause E1 Note</span>
+    </button>
+  </div>
+  <script src="bass-notes.js" type="application/javascript"></script>
+</body>
